@@ -1,0 +1,261 @@
+@media (min-width: 0px) and (max-width: 576px) {
+  .header{
+    .container{
+      width: 100%;
+      .navbar{
+        width: 100%;
+        text-align: end;
+        .navbar_img{
+
+        }
+        ul{
+          li{
+            display: none;
+          }
+          .hamburger_icon{
+            display: block;
+            text-align: end;
+          }
+        }
+      }
+      .header_page{
+        text-align: center;
+        width: auto;
+        background: center;
+        margin: 0 auto;
+        background-size: 600px 680px;
+        .text{
+          padding: 30px;
+          .header_page_h1{
+            font-size: 45px;
+            margin-top: 80px;
+          }
+          p{
+            font-size: 19px;
+          }
+          .btn{
+            width: 250px;
+            height: 60px;
+            font-size: 20px;
+          }
+         }
+        }
+      }
+    }
+  .section{
+    .container{
+      .collection{
+        img{
+          width: 100%;
+        }
+        .boxes{
+          flex-wrap: wrap;
+          margin-top: 100px;
+          .box-1{
+            width: 100%;
+            margin: 0 auto;
+            .kopi_img{
+              width: 100%;
+              font-size: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+@media (min-width: 577px) and (max-width: 990px) {
+  .header{
+    .container{
+      width: 100%;
+      .navbar{
+        .navbar_img{
+          ul{
+            width: 100%;
+            text-align: end;
+            li{
+              width: 100%;
+            }
+          }
+        }
+        ul{
+          .hamburger_icon{
+            display: none;
+            text-align: end;
+          }
+        }
+      }
+      .header_page{
+        width: auto;
+        background: center;
+        margin: 0 auto;
+        background-size: 1000px 680px;
+        .text{
+          padding: 50px;
+          .header_page_h1{
+
+          }
+          p{
+            font-size: 19px;
+          }
+          .btn{
+            width: 250px;
+            height: 60px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .section{
+    .container{
+      .collection{
+        img{
+          width: 100%;
+        }
+        .boxes{
+          flex-wrap: wrap;
+          margin-top: 40px;
+          .box-1{
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            .kopi_img{
+              width: 50%;
+              font-size: 100px;
+            }
+            .texts{
+              width: 100%;
+              h3{
+                font-size: 30px;
+                text-align: revert;
+              }
+              p{
+                text-align: revert;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  .header{
+    .container{
+      width: 100%;
+      .navbar{
+        .navbar_img{
+          ul{
+            width: 100%;
+            text-align: end;
+            li{
+              width: 100%;
+            }
+          }
+        }
+        ul{
+          .hamburger_icon{
+            display: none;
+            text-align: end;
+          }
+        }
+      }
+      .header_page{
+        width: auto;
+        background: center;
+        margin: 0 auto;
+        background-size: 1200px 680px;
+        .text{
+          padding: 50px;
+          .header_page_h1{
+
+          }
+          p{
+            font-size: 19px;
+          }
+          .btn{
+            width: 250px;
+            height: 60px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .section{
+    .container{
+      .collection{
+        img{
+          width: 100%;
+        }
+        .boxes{
+          display: flex;
+          margin-top: 40px;
+          width: 100%;
+          .box-1{
+            width: 100%;
+            margin: 0 auto;
+            .kopi_img{
+              width: 100%;
+              font-size: 100px;
+            }
+            .texts{
+              width: 100%;
+              h3{
+                font-size: 30px;
+              }
+              p{
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+@media (min-width: 1201px){
+  .header{
+    .container{
+      width: 100%;
+      .navbar{
+        .navbar_img{
+          ul{
+            width: 100%;
+            text-align: end;
+            li{
+              width: 100%;
+            }
+          }
+        }
+        ul{
+          .hamburger_icon{
+            display: none;
+            text-align: end;
+          }
+        }
+      }
+      .header_page{
+        width: auto;
+        background: center;
+        margin: 0 auto;
+        background-size: 1500px 680px;
+        .text{
+          padding: 50px;
+          .header_page_h1{
+
+          }
+          p{
+            font-size: 19px;
+          }
+          .btn{
+            width: 250px;
+            height: 60px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,235 @@
+.btn {
+  background-color: #0E8784;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Bookman Old Style';
+  color: white; }
+
+.container {
+  width: 1140px;
+  padding: 0 16px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  object-fit: contain; }
+
+ul {
+  display: flex; }
+
+li {
+  list-style: none;
+  margin-left: 20px; }
+
+a {
+  text-decoration: none;
+  font-size: 13px;
+  color: gray; }
+
+h1, h2, h4, h5, h6 {
+  color: white;
+  font-family: 'Bookman Old Style'; }
+
+@media (min-width: 0px) and (max-width: 576px) {
+  .header .container {
+    width: 100%; }
+    .header .container .navbar {
+      width: 100%;
+      text-align: end; }
+      .header .container .navbar ul li {
+        display: none; }
+      .header .container .navbar ul .hamburger_icon {
+        display: block;
+        text-align: end; }
+    .header .container .header_page {
+      text-align: center;
+      width: auto;
+      background: center;
+      margin: 0 auto;
+      background-size: 600px 680px; }
+      .header .container .header_page .text {
+        padding: 30px; }
+        .header .container .header_page .text .header_page_h1 {
+          font-size: 45px;
+          margin-top: 80px; }
+        .header .container .header_page .text p {
+          font-size: 19px; }
+        .header .container .header_page .text .btn {
+          width: 250px;
+          height: 60px;
+          font-size: 20px; }
+
+  .section .container .collection img {
+    width: 100%; }
+  .section .container .collection .boxes {
+    flex-wrap: wrap;
+    margin-top: 100px; }
+    .section .container .collection .boxes .box-1 {
+      width: 100%;
+      margin: 0 auto; }
+      .section .container .collection .boxes .box-1 .kopi_img {
+        width: 100%;
+        font-size: 100px; } }
+@media (min-width: 577px) and (max-width: 990px) {
+  .header .container {
+    width: 100%; }
+    .header .container .navbar .navbar_img ul {
+      width: 100%;
+      text-align: end; }
+      .header .container .navbar .navbar_img ul li {
+        width: 100%; }
+    .header .container .navbar ul .hamburger_icon {
+      display: none;
+      text-align: end; }
+    .header .container .header_page {
+      width: auto;
+      background: center;
+      margin: 0 auto;
+      background-size: 1000px 680px; }
+      .header .container .header_page .text {
+        padding: 50px; }
+        .header .container .header_page .text p {
+          font-size: 19px; }
+        .header .container .header_page .text .btn {
+          width: 250px;
+          height: 60px;
+          font-size: 20px; }
+
+  .section .container .collection img {
+    width: 100%; }
+  .section .container .collection .boxes {
+    flex-wrap: wrap;
+    margin-top: 40px; }
+    .section .container .collection .boxes .box-1 {
+      width: 100%;
+      margin: 0 auto;
+      display: flex; }
+      .section .container .collection .boxes .box-1 .kopi_img {
+        width: 50%;
+        font-size: 100px; }
+      .section .container .collection .boxes .box-1 .texts {
+        width: 100%; }
+        .section .container .collection .boxes .box-1 .texts h3 {
+          font-size: 30px;
+          text-align: revert; }
+        .section .container .collection .boxes .box-1 .texts p {
+          text-align: revert; } }
+@media (min-width: 991px) and (max-width: 1200px) {
+  .header .container {
+    width: 100%; }
+    .header .container .navbar .navbar_img ul {
+      width: 100%;
+      text-align: end; }
+      .header .container .navbar .navbar_img ul li {
+        width: 100%; }
+    .header .container .navbar ul .hamburger_icon {
+      display: none;
+      text-align: end; }
+    .header .container .header_page {
+      width: auto;
+      background: center;
+      margin: 0 auto;
+      background-size: 1200px 680px; }
+      .header .container .header_page .text {
+        padding: 50px; }
+        .header .container .header_page .text p {
+          font-size: 19px; }
+        .header .container .header_page .text .btn {
+          width: 250px;
+          height: 60px;
+          font-size: 20px; }
+
+  .section .container .collection img {
+    width: 100%; }
+  .section .container .collection .boxes {
+    display: flex;
+    margin-top: 40px;
+    width: 100%; }
+    .section .container .collection .boxes .box-1 {
+      width: 100%;
+      margin: 0 auto; }
+      .section .container .collection .boxes .box-1 .kopi_img {
+        width: 100%;
+        font-size: 100px; }
+      .section .container .collection .boxes .box-1 .texts {
+        width: 100%; }
+        .section .container .collection .boxes .box-1 .texts h3 {
+          font-size: 30px; } }
+@media (min-width: 1201px) {
+  .header .container {
+    width: 100%; }
+    .header .container .navbar .navbar_img ul {
+      width: 100%;
+      text-align: end; }
+      .header .container .navbar .navbar_img ul li {
+        width: 100%; }
+    .header .container .navbar ul .hamburger_icon {
+      display: none;
+      text-align: end; }
+    .header .container .header_page {
+      width: auto;
+      background: center;
+      margin: 0 auto;
+      background-size: 1500px 680px; }
+      .header .container .header_page .text {
+        padding: 50px; }
+        .header .container .header_page .text p {
+          font-size: 19px; }
+        .header .container .header_page .text .btn {
+          width: 250px;
+          height: 60px;
+          font-size: 20px; } }
+.header .container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1340px;
+  padding: 0 16px;
+  box-sizing: border-box; }
+  .header .container .navbar {
+    margin-top: 30px;
+    align-items: center;
+    display: flex; }
+    .header .container .navbar .navbar_img {
+      width: 235px;
+      height: 25px; }
+    .header .container .navbar ul {
+      margin-left: auto; }
+      .header .container .navbar ul .hamburger_icon {
+        margin-left: 20px;
+        height: 20px; }
+  .header .container .header_page {
+    background-image: url("../images/Bitmap.png");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 100%;
+    height: 590px; }
+    .header .container .header_page div {
+      padding: 80px; }
+      .header .container .header_page div h1 {
+        font-size: 60px; }
+      .header .container .header_page div p {
+        color: gray;
+        font-size: 19px; }
+      .header .container .header_page div .btn {
+        margin-top: 30px; }
+
+.section .container {
+  margin-top: 100px; }
+  .section .container .collection {
+    position: absolute; }
+    .section .container .collection .boxes {
+      position: relative;
+      display: flex;
+      bottom: 90px; }
+      .section .container .collection .boxes .box-1 {
+        margin: 13px; }
+        .section .container .collection .boxes .box-1 img {
+          width: 250px; }
+        .section .container .collection .boxes .box-1 h3 {
+          text-align: center;
+          font-family: 'Bookman Old Style'; }
+        .section .container .collection .boxes .box-1 p {
+          text-align: center;
+          color: gray; }
+
+/*# sourceMappingURL=main.css.map */

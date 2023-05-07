@@ -1,0 +1,11 @@
+@mixin btn{
+  background-color: #0E8784;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Bookman Old Style';
+  color: white;
+}
+.btn{
+  @include btn
+}
